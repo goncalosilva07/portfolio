@@ -94,7 +94,7 @@ function Menu() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Menu />
       <div className="w-full">
         <Routes>
