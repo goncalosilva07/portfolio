@@ -1,0 +1,34 @@
+.mainHome {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tech-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.tech-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 12px;
+  position: absolute;
+  z-index: 10;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+  font-size: 1rem;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.tech-icon:hover .tech-tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
