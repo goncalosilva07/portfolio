@@ -121,7 +121,7 @@ export default function Home() {
           <>
             <button
               onClick={() => setProjectSelected(null)}
-              className="cursor-pointer mb-4 bg-zinc-700 text-white p-3 rounded-xl hover:bg-zinc-500 transition"
+              className="cursor-pointer mb-4 bg-zinc-700 text-white p-3 mt-5 lg:mt-0 rounded-xl hover:bg-zinc-500 transition"
             >
               ← Back to the projects
             </button>

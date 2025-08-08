@@ -145,7 +145,7 @@ export default function Contacts() {
               Curriculum Vitae
             </span>
             <button className="p-3 rounded-lg bg-zinc-500 font-bold hover:bg-zinc-600 transition-colors">
-              <a href="/GoncaloSilvaCV.pdf" download>
+              <a href={`${import.meta.env.BASE_URL}GoncaloSilvaCV.pdf`} download>
                 <span className="text-white">Download</span>
               </a>
             </button>
