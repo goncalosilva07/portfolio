@@ -1,6 +1,6 @@
 import {
   useLocation,
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
@@ -94,7 +94,7 @@ function Menu() {
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
       <Menu />
       <div className="w-full">
         <Routes>
